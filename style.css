@@ -1,0 +1,127 @@
+:root {
+    --cor-principal: #3ebfff;
+    --branco: #ffffff;
+    --cor-texto: #4e4e4e;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+.textoNavBar {
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.corBotao {
+    background-color: var(--branco);
+}
+
+.banner {
+    background-color: var(--cor-principal);
+    position: relative;
+    margin: auto;
+}
+
+.textoBanner {
+    font-size: 8vw;
+    position: absolute;
+    font-weight: 600;
+    top: 10%;
+    left: 28.5%;
+    text-align: center;
+    color: var(--branco);
+}
+
+.imagemBanner {
+    width: 100%;
+}
+
+.imagemGame {
+    width: 100%;
+}
+
+.coluna {
+    padding: 0;
+}
+
+.cartao {
+    position: relative;
+    padding: 10%;
+}
+
+.tituloCartao {
+    font-size: 3.5vw;
+}
+
+.textoCartao {
+    color: var(--cor-texto);
+    font-size: 2.5vw;
+}
+
+.linkCartao {
+    font-size: 2.5vw;
+    text-decoration: none;
+}
+
+.sobreImagem {
+    position: relative;
+}
+
+.tituloSobreImagem {
+    padding: 10%;
+    position: absolute;
+    top: 53%;
+    left: 15%;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.textoSobreImagem {
+    padding: 10%;
+    color: var(--cor-texto);
+    position: absolute;
+    top: 65%;
+    transition: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.cartoesEspeciais {
+    margin-top: 5vw;
+}
+
+.imagemGameCard {
+    width: 40%;
+    margin: auto;
+}
+
+@media (max-width: 575px) {
+    .cartao {
+        text-align: center;
+    }
+    
+    .tituloCartao, .tituloSobreImagem {
+        font-size: 5vw;
+    }
+
+    .textoCartao, .textoSobreImagem {
+        font-size: 4vw;
+    }
+
+    .linkCartao {
+        font-size: 4vw;
+    }
+
+    .tituloSobreImagem {
+        right: 15%;
+    }
+}

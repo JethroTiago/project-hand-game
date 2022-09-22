@@ -1,0 +1,74 @@
+.games-classicos {
+    text-align: center;
+    padding: 5vw;
+}
+
+.games-classicos__titulo {
+    margin-bottom: 1vw;
+    font-size: 4vw;
+}
+
+.games-classicos__descricao {
+    font-weight: 100;
+    font-size: 2vw;
+    color: var(--cor-texto);
+}
+
+.games {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vw;
+}
+
+.game {
+    margin: 2vw;
+}
+
+.game__imagem {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.game__funcao {
+    color: var(--cor-texto);
+}
+
+.game__imagem--gameboy {
+    background-image: url(./img/image-gameboy.png);
+    margin-bottom: 2vw;
+}
+
+.game__imagem--psp {
+    background-image: url(./img/image-psp.png);
+    margin-bottom: 2vw;
+}
+
+.game__imagem--gamegear {
+    background-image: url(./img/image-gamegear.png);
+    margin-bottom: 2vw;
+}
+
+@media screen and (min-width: 0) {
+    .games-classicos__titulo {
+        font-size: 6vw;
+    }
+
+    .games-classicos__descricao {
+        font-size: 4vw;
+    }
+    
+    .games {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .games {
+        flex-direction: row;
+    }
+    
+}
