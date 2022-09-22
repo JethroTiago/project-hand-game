@@ -1,0 +1,27 @@
+.rodape {
+    background-color: var(--cor-rodape);
+    text-align: center;
+    padding: 5vw;
+}
+
+.rodape-titulo {
+    color: var(--cor-fonte-rodape);
+    font-size: 3vw;
+    margin: 0 auto;
+}
+
+.rodape-icones {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.iconelink {
+    margin: 4vw;
+}
+
+@media screen and (min-width: 0) {
+    .rodape-titulo {
+        font-size: 6vw;
+    }
+}
