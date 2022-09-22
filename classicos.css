@@ -64,6 +64,10 @@
     .games {
         flex-direction: column;
     }
+
+    .game__funcao {
+        font-size: 4vw;
+    }
 }
 
 @media screen and (min-width: 576px) {
