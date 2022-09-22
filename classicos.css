@@ -35,6 +35,7 @@
 
 .game__funcao {
     color: var(--cor-texto);
+    font-size: 2vw;
 }
 
 .game__imagem--gameboy {
@@ -75,4 +76,7 @@
         flex-direction: row;
     }
     
+    .game__funcao {
+        font-size: 2vw;
+    }
 }
