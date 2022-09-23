@@ -106,6 +106,10 @@ body {
     margin: auto;
 }
 
+.modal-bg {
+    background-color: var(--cor-principal);
+}
+
 @media (max-width: 575px) {
     .cartao {
         text-align: center;
