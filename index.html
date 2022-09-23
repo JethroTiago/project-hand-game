@@ -26,9 +26,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link textoNavBar" href="#">Home</a>
-                        <a class="nav-link textoNavBar" href="#">Novidades</a>
-                        <a class="nav-link textoNavBar" href="#">Ofertas</a>
-                        <a class="nav-link textoNavBar" href="#">Contato</a>
+                        <a class="nav-link textoNavBar" href="#cartao">Informações</a>
+                        <a class="nav-link textoNavBar" href="#classicos">Clássicos</a>
+                        <a class="nav-link textoNavBar" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contato</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
         </div>
     </header>
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid" id="cartao">
             <div class="row">
                 <div class="col-sm-6 coluna">
                     <div class="cartao">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="games-classicos">
+    <section class="games-classicos" id="classicos">
         <h3 class="games-classicos__titulo">Games clássicos</h3>
         <p class="games-classicos__descricao">Os mais famosos portáteis da história dos games.</p>
         <div class="games">
@@ -114,7 +114,6 @@
             </div>
         </div>
     </section>
-
     <section class="expositor">
         <div class="expositor-imagem">
             <img src="./img/image-orangegame.png" class="expositor-image" alt="Game laranja">
@@ -138,6 +137,41 @@
             </li>
         </ul>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nome completo</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Insira seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de e-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Insira aqui seu comentário" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
