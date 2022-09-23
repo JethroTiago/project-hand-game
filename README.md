@@ -2,19 +2,19 @@
 
 ## A web page project for handheld games 
 
-![Hand GamesImageMd](https://user-images.githubusercontent.com/103612874/191153794-3ecd6232-f6c2-442d-986a-4a7b3f4defa6.jpg)
+### Project Preview:
+![Preview](https://user-images.githubusercontent.com/103612874/191956750-8045c3a8-500e-4d96-bddd-4612d4d03f8e.jpg)
 
-Desafio do site Front-End Mentor, modificando o projeto "Sunnyside agency landing page"
+Desafio da plataforma [Front-End Mentor](https://www.frontendmentor.io/), modificando o projeto ["Sunnyside agency landing page"](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 
 Utilizado técnicas de Layouts Responsivos e Bootstrap.
 
 <br>
 
-Front-End Mentor challenge, modifying the original project "Sunnyside agency landing page"
+[Front-End Mentor](https://www.frontendmentor.io/) challenge, modifying the original project ["Sunnyside agency landing page"](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 
 Used responsive layouts and bootstrap techniques.
 
-<br>
 
 ## How it works
 
@@ -25,6 +25,13 @@ It's just a page that displays some information about handheld games and emulati
 * HTML5
 * CSS3 (and CSS variables
 * Bootstrap
+
+## With this activity, I was able to reinforce aspects of the tools below:
+
+- HTML5 Structure
+- CSS tools, (like Flex-Box and media query)
+- Responsiveness
+- Bootstrap documentation
 
 ## Thanks to
 
