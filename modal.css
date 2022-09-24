@@ -1,0 +1,9 @@
+.bg-modal {
+    background-color: var(--cor-principal);
+    border: none;
+}
+
+.color-label, .modal-titulo {
+    color: var(--branco);
+    font-size: 15px;
+}
