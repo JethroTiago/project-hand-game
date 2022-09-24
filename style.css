@@ -61,16 +61,17 @@ body {
 }
 
 .tituloCartao {
-    font-size: 3.5vw;
+    margin-top: 2vw;
+    font-size: 3vw;
 }
 
 .textoCartao {
     color: var(--cor-texto);
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 .linkCartao {
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: none;
 }
 
