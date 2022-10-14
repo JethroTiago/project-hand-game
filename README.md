@@ -1,8 +1,12 @@
 # Project Hand Games
 
-## A web page project for handheld games 
+## A web page project for handheld games
 
-### Project Preview:
+### Deploy
+
+http://project-hand-game-le5k.vercel.app/
+
+### Project Preview
 ![Preview](https://user-images.githubusercontent.com/103612874/191956750-8045c3a8-500e-4d96-bddd-4612d4d03f8e.jpg)
 
 Desafio da plataforma [Front-End Mentor](https://www.frontendmentor.io/), modificando o projeto ["Sunnyside agency landing page"](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
